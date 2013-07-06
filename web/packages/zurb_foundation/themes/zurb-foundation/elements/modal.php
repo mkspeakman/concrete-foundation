@@ -1,0 +1,1 @@
+<h2>This is content served by ajax.</h2>

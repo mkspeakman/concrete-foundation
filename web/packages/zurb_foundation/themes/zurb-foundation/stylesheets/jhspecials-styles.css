@@ -1,0 +1,122 @@
+@media only screen and (max-width: 320px) {
+  /* line 3, ../sass/jhspecials-styles.scss */
+  .special-content h3 {
+    font-size: 14px;
+  }
+  /* line 6, ../sass/jhspecials-styles.scss */
+  .special-content h5 {
+    font-size: 12px;
+  }
+}
+/* line 12, ../sass/jhspecials-styles.scss */
+canvas {
+  color: #666666;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-Regular.eot");
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-Regular.woff") format("woff"), url("../fonts/Oswald-Regular.svg#Oswald") format("svg");
+}
+
+/* line 26, ../sass/jhspecials-styles.scss */
+.top-bar-section .dropdown {
+  -webkit-box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+}
+/* line 31, ../sass/jhspecials-styles.scss */
+.top-bar-section .dropdown li a {
+  padding-top: 25px;
+}
+
+/* line 36, ../sass/jhspecials-styles.scss */
+.top-bar-section ul li > a {
+  text-transform: uppercase;
+  /* force text to uppercase */
+  font-family: 'Oswald';
+  padding-top: emCalc(24px);
+  padding-bottom: emCalc(12px);
+}
+
+/* line 42, ../sass/jhspecials-styles.scss */
+.top-bar .toggle-topbar.menu-icon a span {
+  right: emCalc(9px);
+}
+
+/* line 45, ../sass/jhspecials-styles.scss */
+.button {
+  text-transform: uppercase;
+  /* force text to uppercase */
+  border: 0;
+}
+
+/* line 49, ../sass/jhspecials-styles.scss */
+.top-bar-section ul li > a.button {
+  color: white;
+}
+
+/* line 52, ../sass/jhspecials-styles.scss */
+.top-bar-section .has-dropdown > a:after {
+  top: emCalc(31px);
+  right: emCalc(-4px);
+}
+
+/* line 56, ../sass/jhspecials-styles.scss */
+.page-title {
+  color: #bbb;
+  font-weight: lighter;
+}
+
+/* line 65, ../sass/jhspecials-styles.scss */
+.special-item {
+  -webkit-border-radius: emCalc(5px);
+  border-radius: emCalc(5px);
+  background: url("../images/diagonal-noise.png");
+  padding: emCalc(12px);
+  -webkit-box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* line 73, ../sass/jhspecials-styles.scss */
+.special-content {
+  background: white;
+}
+/* line 75, ../sass/jhspecials-styles.scss */
+.special-content h3 {
+  color: #666;
+  margin: 0 emCalc(12px);
+  padding: emCalc(12px) 0;
+}
+
+/* line 81, ../sass/jhspecials-styles.scss */
+.special-image {
+  position: relative;
+}
+/* line 83, ../sass/jhspecials-styles.scss */
+.special-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 88, ../sass/jhspecials-styles.scss */
+.special-image-overlay-1 {
+  position: absolute;
+  padding: emCalc(5px) emCalc(10px);
+  width: 100%;
+  left: 0;
+  bottom: emCalc(7px);
+  background: black;
+  opacity: .6;
+}
+/* line 96, ../sass/jhspecials-styles.scss */
+.special-image-overlay-1 h5 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}

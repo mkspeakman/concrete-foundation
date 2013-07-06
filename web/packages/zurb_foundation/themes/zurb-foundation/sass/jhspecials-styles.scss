@@ -1,0 +1,101 @@
+@media only screen and (max-width: 320px) {
+  .special-content {
+    h3 {
+      font-size:14px;
+      }
+    h5 {
+      font-size:12px;
+      }
+  }
+}
+
+canvas {
+  color: #666666;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Regular.eot');
+  }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Regular.woff') format('woff'),
+  url('../fonts/Oswald-Regular.svg#Oswald') format('svg');
+  }
+  .top-bar-section .dropdown {
+    -webkit-box-shadow:  2px 3px 3px 0px rgba(0, 0, 0, .5);
+    box-shadow:  2px 3px 3px 0px rgba(0, 0, 0, .5);
+    border-top:1px solid #ccc;
+    border-left:1px solid #ccc;
+    li a {
+      padding-top: 25px;
+      //padding-bottom: 14px;
+    }
+  }
+  .top-bar-section ul li > a {
+   text-transform: uppercase; /* force text to uppercase */
+   font-family: 'Oswald';
+   padding-top: emCalc(24px);
+   padding-bottom: emCalc(12px);
+  }
+  .top-bar .toggle-topbar.menu-icon a span {
+    right:emCalc(9px);
+  }
+  .button {
+   text-transform: uppercase; /* force text to uppercase */
+   border:0;
+  }
+  .top-bar-section ul li > a.button {
+    color:white; 
+  }
+  .top-bar-section .has-dropdown > a:after {
+  top: emCalc(31px);
+  right: emCalc(-4px);
+  }
+  .page-title{
+    color:#bbb;
+    font-weight:lighter;
+  }
+
+.catalog-item-block { 
+  }
+.catalog-item-block li{
+  }
+.special-item {
+  -webkit-border-radius: emCalc(5px);
+  border-radius: emCalc(5px);
+  background: url('../images/diagonal-noise.png');
+  padding: emCalc(12px);
+  -webkit-box-shadow:  2px 3px 3px 0px rgba(0, 0, 0, .5);
+    box-shadow:  2px 3px 3px 0px rgba(0, 0, 0, .5);
+}
+.special-content {
+  background:white;
+  h3 {
+    color:#666;
+    margin:0 emCalc(12px);
+    padding: emCalc(12px) 0;
+  }
+}
+.special-image {
+  position:relative;
+  img {
+    max-width:100%;
+    width:100%;
+  }
+}
+.special-image-overlay-1 {
+  position:absolute;
+  padding:emCalc(5px) emCalc(10px);
+  width:100%;
+  left:0;
+  bottom:emCalc(7px);
+  background:black;
+  opacity:.6;
+  h5 {
+    margin:0;
+    padding:0;
+    color:white;
+  }
+}
